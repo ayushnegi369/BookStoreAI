@@ -1,9 +1,12 @@
 import React from "react";
+import LoginBox from "../components/LoginBox";
 
 const LoginPage = () => {
-    return <div className="">
-        Welcome to the Login Page!
-    </div>;
+    return (
+        <div>
+            <LoginBox />
+        </div>
+    );
 };
 
 export default LoginPage;
